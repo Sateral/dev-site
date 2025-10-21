@@ -1,5 +1,6 @@
 import About from '@/app/_sections/about';
 import Projects from '@/app/_sections/projects';
+import Resume from '@/app/_sections/resume';
 
 export default function Home() {
     return (
@@ -7,6 +8,7 @@ export default function Home() {
             <main className='flex flex-col p-6 gap-6'>
                 <About />
                 <Projects />
+                <Resume />
             </main>
         </div>
     );
