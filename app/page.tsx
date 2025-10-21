@@ -6,9 +6,15 @@ export default function Home() {
     return (
         <div className='font-sans min-h-screen'>
             <main className='flex flex-col p-6 gap-6'>
-                <About />
-                <Projects />
-                <Resume />
+                <section id='about'>
+                    <About />
+                </section>
+                <section id='projects'>
+                    <Projects />
+                </section>
+                <section id='resume'>
+                    <Resume />
+                </section>
             </main>
         </div>
     );
